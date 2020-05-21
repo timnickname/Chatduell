@@ -5,3 +5,5 @@ Devlog
 Day 1. 
 Todo: Setting up Window with pyqt.
 making a second window to put the text in later and control the behavior of the first
+-added the first window
+-added title and first label

@@ -6,7 +6,15 @@ from PyQt5.QtCore import *
 
 
 class MainWindow(QMainWindow):
-    pass
+    def __init__(self, *args, **kwargs):
+        super(MainWindow,self).__init__(*args,**kwargs)
+
+        self.setWindowTitle("Chatduell")
+
+        label = QLabel("Testlabel")
+        label.setAlignment(Qt.AlignCenter)
+        self.setCentralWidget(label)
+
 
 app = QApplication(sys.argv)
 
